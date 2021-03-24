@@ -42,7 +42,7 @@ matiere = [elem[1] for elem in notes ]
 print(matiere)
 
 class Note:
-  def __init__(self, eleve, matiere, valeur): #La méthode pour créer un objet
+  def __init__(self, eleve, matiere, valeur): 
     self.eleve = eleve
     self.matiere = matiere
     self.valeur = valeur

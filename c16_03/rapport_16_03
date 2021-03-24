@@ -41,6 +41,9 @@ test_16_03.py:100: AssertionError
 [('eleve1', 'math', 13), ('eleve1', 'physique', 15), ('eleve1', 'math', 13), ('eleve1', 'eco', 12), ('eleve1', 'eco', 13), ('eleve1', 'math', 12), ('eleve2', 'math', 13), ('eleve2', 'math', 14)]
 [13, 15, 13, 12, 13, 12, 13, 14]
 13.125
+[('eleve1', 'math', 13), ('eleve1', 'physique', 15), ('eleve1', 'math', 13), ('eleve1', 'eco', 12), ('eleve1', 'eco', 13), ('eleve1', 'math', 12)]
+13.0
+12.666666666666666
 ['eleve1', 'eleve1', 'eleve1', 'eleve1', 'eleve1', 'eleve1', 'eleve2', 'eleve2']
 ['math', 'physique', 'math', 'eco', 'eco', 'math', 'math', 'math']
 eleve2

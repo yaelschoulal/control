@@ -23,28 +23,16 @@ print(moyenne)
 
 #Question 4.B
 
-if __name__ == '__main__':
-    note1 = ('eleve1', 'math', 13)
-    note2 = ('eleve1', 'physique', 15)
-    note3 = ('eleve1', 'math', 13)
-    note4 = ('eleve1', 'eco', 12)
-    note5 = ('eleve1', 'eco', 13)
-    note6 = ('eleve1', 'math', 12)
-    note7 = ('eleve2', 'math', 13)
-    note8 = ('eleve2', 'math', 14)
+notes_elv1 = [note for note in notes if note[0] == 'eleve1']
+
+print(notes_elv1)
+
+print(sum(note[2] for note in notes_elv1)/len(notes_elv1))
 
 
-    notes = [note1, note2, note3, note4, note5, note6,note7,note8]
+notes_elv1_math = [n for n in notes_elv1 if n[1] == 'math']
 
-    notes_elv1 = [note for note in notes if note[0] == 'eleve1']
-
-    print(notes_elv1)
-
-    print(sum(note[2] for note in notes_elv1)/len(notes_elv1))
-
-    notes_elv1_math = [n for n in notes_elv1 if n[1] == 'math']
-
-    print(sum(n[2] for n in notes_elv1_math)/len(notes_elv1_math))
+print(sum(n[2] for n in notes_elv1_math)/len(notes_elv1_math))
 
 #Question 4.c
 eleve = [elem[0] for elem in notes ] 

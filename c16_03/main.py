@@ -123,5 +123,7 @@ print(liste)
 onotes = [Note(*note) for note in notes]
 
 #Question 6 :
+def __str__ (self):
+  return f"{self.__class__.__name__}('{self.eleve}','{self.matiere}','{self.valeur}')"
 
 
